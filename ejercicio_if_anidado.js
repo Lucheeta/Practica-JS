@@ -29,5 +29,4 @@ if (num > 0){
 	respuesta = "neutro";
 }
 
-
 console.log(`El número ${num} es ${respuesta}`);
