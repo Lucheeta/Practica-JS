@@ -4,10 +4,10 @@ let primerNumero = parseInt(prompt("Ingrese el primer número"));
 let segundoNumero = parseInt(prompt("Ingrese el segundo número"));
 let tercerNumero = parseInt(prompt("Ingrese el tercer número"));
 
-if (primerNumero > segundoNumero && tercerNumero) {
+if (primerNumero > segundoNumero && primerNumero > tercerNumero) {
 	console.log(`El ${primerNumero} es mayor`);
-} if (segundoNumero > primerNumero && tercerNumero) {
+} if (segundoNumero > primerNumero && segundoNumero > tercerNumero) {
 	console.log(`El ${segundoNumero} es mayor`)
-} if (tercerNumero > primerNumero && segundoNumero) {
+} if (tercerNumero > primerNumero && tercerNumero > segundoNumero) {
 	console.log(`El ${tercerNumero} es mayor`);
 	}
