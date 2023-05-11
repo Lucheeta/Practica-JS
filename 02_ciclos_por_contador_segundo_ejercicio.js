@@ -20,7 +20,7 @@ let num2 = parseInt(prompt("Ingrese otro numero: "));
         
 if (num1 <= num2){
     for (let i = num1+1; i<num2; i++){    
-document.write(i);
+console.log(`${i}`);
 
     }
         
