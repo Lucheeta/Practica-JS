@@ -1,0 +1,5 @@
+
+
+parseInt()
+console.log()
+prompt()
