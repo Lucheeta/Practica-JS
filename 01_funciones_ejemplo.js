@@ -4,7 +4,9 @@
 
 /*function siguiente (x) {
 	return x + 1;
-}*/
+}
+
+console.log(siguiente(7));*/
 
 function saludarA(nombre) {
 	alert(`Hola ${nombre}`);
