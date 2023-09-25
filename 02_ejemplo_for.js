@@ -1,4 +1,4 @@
-
+//Operador de incremento: cont++
 
 
 for (let contador = 1; contador <= 5; contador++) {
